@@ -87,8 +87,7 @@ resource "aws_subnet" "Project-private-subnet-1b" {
 
 resource "aws_key_pair" "project-key-pair" {
   key_name   = "project-terraform-june"
-  public_key = "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABgQC7qKrCMJ2oFEmu46AbDXUDrfln46MrJDe0Q8msBLkAsRDr8+pMXFnaPTZu//14w/8KS5S+Hsb/Aa6TQU1cfJk7w4DkivrCvIt/Jy4Qd0kdpDFvK8UMM6IpT+dZmCkCwIBJvC4X70uu87k/4rX2M32VJZl34xbYriaLeEfiqGscGnc8JhMRh1ectUwOSxSUAw2tU9quvZiumtn9kp6yXMZQ5AmhBoXyqow9uUdnPay7Urz/XEOGfK3PZZcmA8JCtgCNw1rkj/Sn4rbSSfWQMnd3zgdz+k+yx7j43n+zXy7MOQg1paBBBeZLHwNBuy/vJ+FWHvU836E1wPquijHUC63jq1FGtY8dtV2HpsD0VtHKTZrWmHOFt8bHGstdzjzQgC0JleRiDt8CPqQQ7Z0//cbQdN2X6eopQykLAvqvXO6iUQjxm4B06+Pq8AoqkPOND9F5z+czWcjb3tUl5sn5AIlMoK6uzU6e2K+z7S+D48O8MCEZxn2MBdh3l5V/tP1YTfE= Aravind@Aravind"
-
+  public_key = 
   }
 
   # creating the security group
