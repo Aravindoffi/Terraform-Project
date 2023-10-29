@@ -1,3 +1,4 @@
+// terraform server provisioning using aws resource
 terraform {
   required_providers {
     aws = {
